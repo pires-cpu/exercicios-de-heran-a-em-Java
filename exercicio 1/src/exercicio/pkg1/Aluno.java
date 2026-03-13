@@ -9,35 +9,37 @@ package exercicio.pkg1;
  *
  * @author aluno.saolucas
  */
-public class Aluno {
-      private String nome;
-    private int idade;
-    
-    public Aluno(String nome, int idade){
-        this.nome = nome;
-        this.idade = idade;
+public class Aluno extends Pessoa{
+       private String matricula;
+    private String curso;
+
+    public Aluno(String nome, int idade, String curso, String matricula) {
+        super(nome, idade);
+        this.curso = curso;
+        this.matricula = matricula;
     }
     
-    public void setNome(String nome){
-        this.nome = nome;
+    public void setCurso(String curso){
+        this.curso = curso;
     }
     
-    public void setIdade(int idade){
-        this.idade = idade;
+    public void setMatricula(String matricula){
+        this.matricula = matricula;
     }
     
-    public String getNome(){
-        return nome;
+    public String getCurso(){
+        return curso;
     }
     
-    public int getIdade(){
-        return idade;
+    public String getMatricula(){
+        return matricula;
     }
     
-    public void getStatus1(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
+    public void getStatus2(){
+        System.out.println("Curso: " + curso);
+        System.out.println("Matricula: " + matricula);
     }
 
+        
     
 }

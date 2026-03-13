@@ -15,7 +15,11 @@ public class Exercicio2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+  
+        Gerente objgerente = new Gerente("romero brito", 666.666, "Financeiro");
+        objgerente.exibirDados();
+        
+
     }
     
 }

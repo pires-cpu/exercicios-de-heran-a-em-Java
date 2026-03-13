@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio.pkg1;
+package exercicio.pkg3;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Exercicio1 {
+public class Exercicio3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
-          Aluno objAluno = new Aluno("Rafael Paffrath", 17, "Informatica", "20221");
-        objAluno.getStatus1();
-        objAluno.getStatus2();
-
+        // TODO code application logic here
     }
     
 }
