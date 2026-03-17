@@ -15,7 +15,15 @@ public class Exercicio3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     
+        Cachorro objc1 = new Cachorro("tiago", 12);
+        objc1.exibirDados();
+        objc1.emitirSom();
+        System.out.println("");
+        Gato objg1 = new Gato("tirulipa", 1);
+        objg1.exibirDados();
+        objg1.emitirSom();
+
     }
     
 }

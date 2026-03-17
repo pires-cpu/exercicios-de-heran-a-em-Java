@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio.pkg3;
+package atividade.pkg4;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Gato extends Animal {
+public class Carro {
     
-    public Gato(String nome, int idade) {
-        super(nome, idade);
-    }
-    public void emitirSom(){
-        System.out.println("Miado!");
-    }    
 }
