@@ -3,27 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package atividade.pkg5;
+package atividade.pkg6;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Atividade5 {
+public class Atividade6 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Professor objp = new Professor("Olivio", "543.374.134-43", "Geografia");
-        objp.exibirDados();
-        
-        System.out.println("");
-        
-        Aluno obja = new Aluno("Miguel da Silva", "353.354.453-31", 357857655);
-        obja.exibirDados();
-        
-
+        // TODO code application logic here
     }
     
 }

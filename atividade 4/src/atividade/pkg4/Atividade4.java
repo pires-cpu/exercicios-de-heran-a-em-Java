@@ -20,8 +20,8 @@ public class Atividade4 {
         objveiculo.exibirDados();
         System.out.println("");
         
-        Carro objcarro = new Carro("Toyota", "Corolla Cross", 2025, 4);
-        objcarro.exibirDados();
+        Carro objCarro = new Carro("kwid", "toyota", 2025, 4);
+        objCarro.exibirDados();
         System.out.println("");
         
         Moto objmoto = new Moto("Yamaha", "Street", 2026, "125cc");
