@@ -3,27 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package atividade.pkg8;
+package atividade.pkg10;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Atividade8 {
+public class Atividade10 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Celular objC = new Celular("shiomy", "Galaxy", 512);
-        objC.exibirDados();
+       
+        Livro objL = new Livro("pequeno principe", 1900, "divina comédia");
+        objL.exibirDados();
         
         System.out.println("");
         
-        Notebook objN = new Notebook("Lenovo", "IdeaPad Slim", 2);
-        objN.exibirDados();
+        Revista objR = new Revista("Revista de Engenharia", 32, "SILVA, A. B. Estudos Técnicos");
+        objR.exibirDados();
 
-    }
-    
+    } 
 }

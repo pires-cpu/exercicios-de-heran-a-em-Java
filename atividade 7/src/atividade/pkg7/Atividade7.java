@@ -15,12 +15,12 @@ public class Atividade7 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ContaCorrente objCC = new ContaCorrente(3483653, 3420.50, 1000);
+        ContaCorrente objCC = new ContaCorrente(979653,54568.50, 998000);
         objCC.exibirDados();
         
         System.out.println("");
         
-        ContaPoupanca objCP = new ContaPoupanca(4239857, 3000, 12);
+        ContaPoupanca objCP = new ContaPoupanca(754754, 550, 1877);
         objCP.exibirDados();
 
     }

@@ -15,7 +15,15 @@ public class Atividade9 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Avião objA = new Avião("Avião de pequeno Porte, 50 pessoas", 209 , "Airbus A380");
+        objA.exibirDados();
+        
+        System.out.println("");
+        
+        Onibus objO = new Onibus("123T-10", 40, "Ônibus Leito");
+        objO.exibirDados();
+        
+
     }
     
 }
