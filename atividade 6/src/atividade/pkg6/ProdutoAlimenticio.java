@@ -5,10 +5,27 @@
  */
 package atividade.pkg6;
 
-/**
- *
- * @author aluno.saolucas
- */
-public class ProdutoAlimenticio {
+    public class ProdutoAlimenticio extends Produto{
+    private String dataValidade;
+    
+    public ProdutoAlimenticio(String nome, double preco, String dataValidade) {
+        super(nome, preco);
+        this.dataValidade = dataValidade;
+    }
+    
+    public void setDataValidade(String dataValidade){
+        this.dataValidade = dataValidade;
+    }
+    
+    public String getDataValidade(){
+        return dataValidade;
+    }
+    
+    @Override
+    public void exibirDados(){
+        System.out.println("Nome do produto: " + getNome());
+        System.out.println("Preço: " + getPreco());
+        System.out.println("Data de validade: " + getDataValidade());
+    }    
     
 }

@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package atividade.pkg6;
 
-/**
- *
- * @author aluno.saolucas
- */
-public class ProdutoEletronico {
+public class ProdutoEletronico extends Produto{
+    private int voltagem;
+    
+    public ProdutoEletronico(String nome, double preco, int voltagem) {
+        super(nome, preco);
+        this.voltagem = voltagem;
+    }
+    
+    public void setVoltagem(int voltagem){
+        this.voltagem = voltagem;
+    }
+    
+    public int getVoltagem(){
+        return voltagem;
+    }
+    
+    @Override
+    public void exibirDados(){
+        System.out.println("Nome do produto: " + getNome());
+        System.out.println("Preço: " + getPreco());
+        System.out.println("Voltagem: " + getVoltagem() + "V");
+    }
     
 }

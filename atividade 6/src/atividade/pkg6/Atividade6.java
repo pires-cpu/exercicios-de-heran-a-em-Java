@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package atividade.pkg6;
 
-/**
- *
- * @author aluno.saolucas
- */
 public class Atividade6 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+           ProdutoEletronico  objPE = new ProdutoEletronico("smartphone", 5353.90, 21);
+        objPE.exibirDados();
+        
+        System.out.println("");
+        
+        ProdutoAlimenticio objPA = new ProdutoAlimenticio("queijo", 2.09, "31/09/2026");
+        objPA.exibirDados();
+
     }
     
 }
